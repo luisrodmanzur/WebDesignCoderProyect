@@ -123,25 +123,80 @@
           </div>
         </nav>
       </header>
-      <main class="row d-flex justify-content-center my-5">
-        <form class="mainLogin col-sm-6">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">No compartiremos tu información con ninguna persona.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-          </div>
-          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+      <main>
+        <form class="form-register">
+          <h4>Formulario Registro</h4>
+          <!-- Nombres -->
+          <input
+            class="controls"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Ingrese su Nombre"
+          />
+          <!-- Apellidos -->
+          <input
+            class="controls"
+            type="text"
+            name="apellidos"
+            id="apellidos"
+            placeholder="Ingrese su Apellido"
+          />
+          <!-- Región -->
+          <select name="region" id="region" class="select">
+            <option selected value="seleccione">Seleccione su Región</option>
+            <option value="aricaYparinacota">Arica y Parinacota</option>
+            <option value="tarapaca">Tarapacá</option>
+            <option value="antofagasta">Antofagasta</option>
+            <option value="atacama">Atacama</option>
+            <option value="coquimbo">Coquimbo</option>
+            <option value="valparaiso">Valparaíso</option>
+            <option value="santiago">Metropolitana de Santiago</option>
+            <option value="ohiggins">
+              Libertador General Bernardo O’Higgins
+            </option>
+            <option value="maule">Maule</option>
+            <option value="nuble">Ñuble</option>
+            <option v alue="biobio">Biobío</option>
+            <option value="araucania">La Araucanía</option>
+            <option value="losrios">Los Ríos</option>
+            <option value="loslagos">Los Lagos</option>
+            <option value="aysen">
+              Aysén del General Carlos Ibáñez del Campo
+            </option>
+            <option value="magallanes">Magallanes y la Antártica Chilena</option>
+          </select>
+          <!-- E-mail address -->
+          <input
+            class="controls"
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Ingrese su Correo"
+          />
+          <!-- Password -->
+          <input
+            class="controls"
+            type="password"
+            name="contraseña"
+            id="contraseña"
+            placeholder="Ingrese su Contraseña"
+          />
+          <!-- Acepto terminos -->
           <p>
-            <a href="register.html">¿No estas registrado?</a>
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="aceptoTerminos"
+              name="aceptoTerminos"
+              value="yes"
+            />Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a>
           </p>
+          <!-- Reset -->
+          <input class="btn btn-primary" type="reset" value="Reset">
+          <!-- Submit Button -->
+          <input class="buttons btn btn-primary" type="submit" value="Submit">
+          <p><a href="login.html">Ya tengo una Cuenta</a></p>
         </form>
       </main>
       <footer class="row">
