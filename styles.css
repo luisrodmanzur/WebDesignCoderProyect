@@ -4,6 +4,16 @@ body {
 	background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
 }
 
+.header__logo__img:hover{
+  transform: scale(1.2);
+  transition: .2s;
+}
+
+.header__logo__text:hover{
+  transform: scale(1.2);
+  transition: .2s;
+}
+
 .carousel-item img{
   height: 550px;
 }
