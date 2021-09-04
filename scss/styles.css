@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+}
+
+header {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+header .header__logo__img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .header__logo__text:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .loginMinicart {
+  margin-left: -10px;
+}
+
+header .mainLogin {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+  padding: 15px 40px 15px 40px;
+}
+
+.card {
+  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card p {
+  color: #116e25;
+}
+
+footer {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+footer .footer__address {
+  margin-top: 1px;
+}
+
+footer .footer__address .footer__address__h4 {
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
