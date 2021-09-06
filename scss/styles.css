@@ -1,13 +1,15 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
-  background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+  background-image: url(https://images.unsplash.com/photo-1584531979583-18c5c4b25efc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
-          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+  background-image: url(https://images.unsplash.com/photo-1584531979583-18c5c4b25efc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header .header__logo__img:hover {
@@ -49,9 +51,9 @@ header .mainLogin {
 }
 
 footer {
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
-          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+  background-image: url(https://images.unsplash.com/photo-1584531979583-18c5c4b25efc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer .footer__address {
